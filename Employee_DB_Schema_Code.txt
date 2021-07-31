@@ -39,3 +39,34 @@ emp_no int pk fk -< Employees.emp_no
 title varchar
 from_date date
 to_date date
+
+-- Drop a table and the connections to other databases
+DROP TABLE employees CASCADE;
+
+
+-- Employees Born Bettween 1952 and 1955
+SELECT first_name, last_name
+FROM employees
+WHERE birth_date BETWEEN '1952-01-01' AND '1955-12-31';
+
+-- Employees Born in 1952
+SELECT first_name, last_name
+FROM employees
+WHERE birth_date BETWEEN '1952-01-01' AND '1952-12-31';
+
+
+-- Employees Born in 1953
+SELECT first_name, last_name
+FROM employees
+WHERE birth_date BETWEEN '1953-01-01' AND '1953-12-31';
+
+-- Employees Born in 1954
+SELECT first_name, last_name
+FROM employees
+WHERE birth_date BETWEEN '1954-01-01' AND '1954-12-31';
+
+-- Employees Born in 1955
+SELECT first_name, last_name
+FROM employees
+WHERE birth_date BETWEEN '1955-01-01' AND '1955-12-31';
+
