@@ -22,27 +22,6 @@ Pewlett Hackard has a large cohort of employees that are nearing retirement age.
 There is also a table available that breaks down the extended mentorship candidates by job titles
 - Note: This table is saved in the Data folder as "extended_mentorship_titles.csv"
 
-By Department
-count	dept_no	extended_mentorship_titles
-5082	d005	Development
-4343	d004	Production
-3084	d007	Sales
-1498	d009	Customer Service
-1360	d008	Research
-1222	d001	Marketing
-1172	d006	Quality Management
-1121	d003	Human Resources
-1023	d002	Finance
-
-
-By Job
-7167	Staff
-7075	Senior Engineer
-2543	Engineer
-1882	Senior Staff
-954	Technique Leader
-284	Assistant Engineer
-
 
 
 
